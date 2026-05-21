@@ -1,0 +1,22 @@
+{
+  "name": "garnier-rrhh-backend",
+  "version": "1.0.0",
+  "description": "Backend de la Solución Agente de Consultas RRHH Garnier",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test-mcp": "node test-mcp.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1",
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.10.1",
+    "sequelize": "^6.37.3",
+    "nodemailer": "^6.9.13",
+    "pdf-parse": "^1.1.1",
+    "multer": "^1.4.5-lts.1"
+  }
+}
